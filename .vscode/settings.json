@@ -1,4 +1,9 @@
 {
     "python.pythonPath": "myvenv\\Scripts\\python.exe",
-    "python.linting.pylintArgs": ["--load-plugins=pylint_django"],
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django"
+    ],
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true
 }
